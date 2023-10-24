@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+    /* overflow: hidden; */
+    background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
+}
+
+body {
+    background: transparent;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+.header {
+    background: transparent; /* No background for the header */
+    padding: 20px;
+}
+
+.header p#logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px;
+    color: white;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding-right: 40px;
+}
+
+.header ul li {
+    margin: 0 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #00f; /* Change link color on hover */
+}
